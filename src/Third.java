@@ -3,12 +3,14 @@ import java.io.IOException;
 public class Third {
 
     public static void main (String[] args) throws IOException {
-    int count = 10;
+    int count = 0;
 
-        do   {
-            System.out.println(count);
+        while (count < 10) {
+
             count++;
-        } while (count < 10);
+            if((count%2) != 0 ) continue;
+            System.out.println(count);
+        };
 
     }
 
