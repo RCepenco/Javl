@@ -1,6 +1,6 @@
 public class Start {
 
-    static int numberBuildingStreat = 141;
+    public final int numberBuildingStreat = 141;
 
 
 
