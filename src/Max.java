@@ -2,11 +2,10 @@ public class Max
      {
         public static void main(String[] args)
         {
-// greeting – переводится как приветствие
-// var – нужен только при определении переменной
-            var greeting = "Father!";
-            System.out.println(greeting);
-            System.out.println(greeting);
+            var king = "King Balon the 6th";
+            var quantityRooms = 6 * 17;
+            System.out.println(king + " has " + quantityRooms + " rooms.");
+
 
         }
 }
