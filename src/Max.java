@@ -2,11 +2,12 @@ import java.util.Scanner;
 public class Max {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        int t = scanner.nextInt();
 
-        String word = getWordForm(t);  /** используется для склонения "градусов" в зависимости от цифр в Input*/
-        System.out.println("Температура воздуха сегодня: " + t + " " + word);
-        scanner.close();
+        while (true) {
+            int t = scanner.nextInt();
+            String word = getWordForm(t);
+            System.out.println("Температура воздуха сегодня: " + t + " " + word);
+        }
     }
 
     public static String getWordForm(int value) {
