@@ -2,7 +2,7 @@ import java.util.Scanner;
 public class Max {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-
+        //noinspection InfiniteLoopStatement
         while (true) {
             int t = scanner.nextInt();
             String word = getWordForm(t);
