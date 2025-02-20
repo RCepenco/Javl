@@ -3,16 +3,15 @@ public class Max
      {
         public static void main(String[] args)
         {
-            Scanner sc = new Scanner(System.in);
-            String text = sc.nextLine();
+            Scanner inp = new Scanner(System.in);
+            String someText = inp.nextLine();
+            inp.close();
+            System.out.println(someText + " " + someText + "\n" + someText + "\n" + someText);
 
-            System.out.println(text + " " + text);
-            System.out.println(text);
-            System.out.println(text);
-
-            sc.close();
+            inp.close();
         }
      }
+
 
 
 
