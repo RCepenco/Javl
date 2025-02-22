@@ -6,9 +6,11 @@ class MyNumber {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        double x = sc.nextDouble();
-        double y = 5*x*x + 2*x + 11;
-        System.out.println(y);
+        int n = sc.nextInt();
+        int square = n * n;
+        int cube = n * n * n;
+
+        System.out.println(n +" "+ square +" "+ cube);
 
 
         sc.close();
