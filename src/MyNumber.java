@@ -1,18 +1,16 @@
-
 import java.util.Scanner;
 
 class MyNumber {
 
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in);
 
-        double x1 = sc.nextDouble();
-        double x2 = sc.nextDouble();
-        double x3 = sc.nextDouble();
-        double n = 3;
-        double mean = (x1 + x2 + x3)/n;
+        int x = scanner.nextInt();
+        int y = scanner.nextInt();
 
-        System.out.println(mean);
-        sc.close();
+        int maxDevelopers = x / y;
+        int remainingBudget = x % y;
+        System.out.println(maxDevelopers + " " + remainingBudget);
+        scanner.close();
     }
 }
