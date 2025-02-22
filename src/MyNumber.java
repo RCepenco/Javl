@@ -1,9 +1,16 @@
+
 import java.util.Scanner;
 
 class MyNumber {
+
     public static void main(String[] args) {
-        Scanner inp = new Scanner(System.in);
-        System.out.println(inp.nextInt() + inp.nextInt());
-        inp.close();
+        Scanner sc = new Scanner(System.in);
+
+        double x = sc.nextDouble();
+        double y = 5*x*x + 2*x + 11;
+        System.out.println(y);
+
+
+        sc.close();
     }
 }
